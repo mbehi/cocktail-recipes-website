@@ -18,8 +18,10 @@ ul: after {
 }
 
 section {
-    
+   margin-top: 1rem;
 }
+
+section:after 
 h2{
     margin: 60px; 
 }
