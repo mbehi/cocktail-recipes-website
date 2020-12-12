@@ -1,0 +1,30 @@
+*{
+    /* outline: 1px #0d5afa; */
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-right: 5px;
+}
+
+ul: after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section {
+    
+}
+h2{
+    margin: 60px; 
+}
+
+p{
+    padding 30px;
+}
+
