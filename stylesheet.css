@@ -1,5 +1,16 @@
-*{
-    /* outline: 1px #0d5afa; */
+ /* * {
+    /* outline: 1px #0d5afa; 
+ }*/
+
+
+body {
+    background-color: #1089FA;
+
+} 
+
+h1 {
+    border-bottom: 10px #1089FA solid;
+    color: white;
 }
 
 ul {
