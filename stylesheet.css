@@ -30,9 +30,12 @@ ul: after {
 
 section {
    margin-top: 1rem;
+   outline: 2px black solid;
+   padding: 20px;
 }
 
 section:after 
+
 h2{
     border-bottom: 10px #1089FA solid;
     color: white;
