@@ -20,6 +20,8 @@ ul {
 li {
     float: left;
     margin-right: 5px;
+    outline: 2px black solid;
+    padding: 10px;
 }
 
 ul: after {
