@@ -22,4 +22,11 @@ if (response === "Squirtle"){
     } */ 
 
 /* ############## REFACTORED CODE ############## */
-function addCocktailImageToDocument ()
+
+/* Function to entering the password */
+function Password() {
+    var Password = "Yes";
+    do {
+        var UserProvidedPassword = prompt("Are you Bad and Boozy?")
+    } while(UserProvidedPassword !== Password);
+}
