@@ -21,3 +21,5 @@ if (response === "Squirtle"){
 
     } */ 
 
+/* ############## REFACTORED CODE ############## */
+function addCocktailImageToDocument ()
