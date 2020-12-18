@@ -23,13 +23,11 @@ if (response === "Squirtle"){
 
 /* ############## REFACTORED CODE ############## */
 
-/*console.log("Welcome to Bad & Boozy Cocktail Recipes!")
-
-
+console.log("Welcome to Bad & Boozy Cocktail Recipes!")
 
 
 /* Function to entering the password */
-/* function Password() {
+function Password() {
     var Password = "Yes";
     do {
         var UserProvidedPassword = prompt("Are you Bad and Boozy?")
@@ -37,11 +35,11 @@ if (response === "Squirtle"){
 }
 Password();
 
-document.write("<br>"); */
+document.write("<br>");
 
 
 
-/* Function to validate your age *//*
+/* Function to validate your age */
 function myPrompt(newPrompt, accept, reject){
     var response = prompt(newPrompt);
     response = response.toLowerCase();
@@ -61,10 +59,5 @@ function myPrompt(newPrompt, accept, reject){
     }
     return alertMessage;
 }
-    myPrompt("Are you over the age of 21", "Congratulations!", "Sorry, Please wait until your 21 years old. SEE YOU LATER")*/
-
-
-console.log("Welcome to Bad & Boozy Cocktail Recipe!")
-
-var Margarita; 
+    myPrompt("Are you over the age of 21", "Congratulations!", "Sorry, Please wait until your 21 years old. SEE YOU LATER")
 
