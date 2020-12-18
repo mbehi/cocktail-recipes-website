@@ -1,6 +1,6 @@
-// console.log("hello, world");
 
-var myVariableName;
+/* ################ EXAMPLE CODE FROM CLASS DO NOT USE ################ */
+/*var myVariableName;
 
 myVariableName = "Hello, World!";
 console.log(myVariableName); //exception output: Hello, World
@@ -19,6 +19,5 @@ if (response === "Squirtle"){
 } else if (response === "")
     {
 
-    }
-
+    } */ 
 
