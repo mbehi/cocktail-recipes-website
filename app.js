@@ -38,11 +38,14 @@ Password();
 document.write("<br>");
 
 var Question;
-Question = "What is your favorite cocktail drink? Moscow Mule, Mexican Martini, or "
+Question = "What is your favorite cocktail drink? Moscow Mule, Mexican Martini, or Margarita"
+
+var FavoriteCocktailDrink = prompt(Question);
+console.log(FavoriteCocktailDrink);
 
 /* Function for setting color based on user input */
 function setColorByUserInput(cocktail) {
-    if (cocktail === "Moscow Mule" {
+    if (cocktail === "Moscow Mule"){
         color = "green";
     } else if (drink === "Mexican Martini"){
         color = "yellow"
@@ -51,8 +54,8 @@ function setColorByUserInput(cocktail) {
           color = "red";
       }
 }
-document.getElementById("color-output")
-setColorByUserInput();
+document.getElementById("color-output").style.background= color;
+setColorByUserInput(FavoriteCocktailDrink);
 
 /* Function to validate your age */
 function myPrompt(newPrompt, accept, reject){
