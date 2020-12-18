@@ -37,7 +37,22 @@ Password();
 
 document.write("<br>");
 
+var Question;
+Question = "What is your favorite cocktail drink? Moscow Mule, Mexican Martini, or "
 
+/* Function for setting color based on user input */
+function setColorByUserInput(cocktail) {
+    if (cocktail === "Moscow Mule" {
+        color = "green";
+    } else if (drink === "Mexican Martini"){
+        color = "yellow"
+    }
+      else (drink === "Margarita")
+          color = "red";
+      }
+}
+document.getElementById("color-output")
+setColorByUserInput();
 
 /* Function to validate your age */
 function myPrompt(newPrompt, accept, reject){
@@ -60,4 +75,3 @@ function myPrompt(newPrompt, accept, reject){
     return alertMessage;
 }
     myPrompt("Are you over the age of 21", "Congratulations!", "Sorry, Please wait until your 21 years old. SEE YOU LATER")
-
